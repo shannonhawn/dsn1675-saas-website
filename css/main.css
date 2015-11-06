@@ -1,0 +1,39 @@
+html{
+  line-height: 1.3;
+  font-size:100%;
+}
+
+header{
+  background-color:#0F636A;
+}
+
+body{
+  margin:0;
+}
+
+h1 {
+  text-align: center;
+}
+
+header a{
+  color:#3EADAD;
+  text-decoration:none;
+  margin:0 0.6rem;
+}
+
+header a:hover{
+  color:white;
+  background-color:blue;
+}
+
+header ol{
+  list-style-type:none;
+  padding-left:0;
+}
+
+.nav a{
+  display:block;
+}
+
+
+/*---FOOTER---*/
