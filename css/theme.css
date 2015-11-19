@@ -1,0 +1,39 @@
+html,
+body{
+  margin:0;
+  padding:0;
+}
+
+.masthead{
+  background-color: #3EADAD;
+}
+
+.logo{
+  max-width:256px;
+  margin:0 auto;
+}
+
+@media only screen and (min-width: 50em){
+
+  .logo{
+    margin:0;
+  }
+}
+
+.nav{
+  margin-top: 1.5rem;
+  text-align:center
+}
+
+.nav a{
+  display:inline-block;
+  margin:0 0.4em;
+}
+
+@media only screen and (min-width: 50em){
+
+  .nav{
+    margin-top: 0rem;
+    text-align:right;
+  }
+}
