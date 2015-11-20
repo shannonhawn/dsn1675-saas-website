@@ -1,3 +1,10 @@
+/*----Colour Scheme---*/
+Dark Orange - 622518
+Light Orange - AA3C24
+Dark Teal - 239F94
+Light Teal - 3EADAD
+Beige - D7B9A4
+/*--------------------*/
 
 @-moz-viewport { width: device-width; scale: 1;}
 @-ms-viewport { width: device-width; scale: 1;}
@@ -10,17 +17,24 @@ box-sizing: inherit;
 margin:0;
 }
 
-h2{
-  font-family:'Montserrat', sans-serif;
-  color:#D7B9A4;
+.grid{
+  margin:0 auto;
+  max-width: 70em;
 }
 
-.pad-bottom{
-  background-color:#D7B9A4;
+html,
+body{
+  margin:0;
+  padding:0;
 }
 
 header,body{
 font-family: 'Raleway', sans-serif;
+}
+
+h2{
+  font-family:'Montserrat', sans-serif;
+  color:#D7B9A4;
 }
 
 a{
@@ -35,30 +49,18 @@ a:hover{
 color: white;
 }
 
-.sign-up-p{
-  border-style:solid;
-  border-color:#622518;
+.btn{
   background-color:#AA3C24;
-  width:50%;
-  text-align:center;
-  margin:1.3rem auto;
-}
-
-.btn-signup{
-  border-style:solid;
-  border-color:#622518;
-  background-color:#AA3C24;
+  border-radius:40px;
+  color:white;
   width:40%;
-  text-align:center;
   text-decoration:none;
   text-align:center;
-  margin:0 40%;
+  margin:0 30%;
 }
 
-ul{
-  list-style-type:none;
-  padding-left:0;
-  text-align:center;
+.btn a:hover{
+  color:#622518;
 }
 
 .hero-banner{
@@ -74,19 +76,14 @@ ul{
   bottom:30px;
 }
 
-/*----Colour Scheme---*/
-Dark Orange - 622518
-Light Orange - AA3C24
-Dark Teal - 239F94
-Light Teal - 3EADAD
-Beige - D7B9A4
-/*--------------------*/
+.pad-bottom{
+  background-color:#D7B9A4;
+}
 
-
-html,
-body{
-  margin:0;
-  padding:0;
+ul{
+  list-style-type:none;
+  padding-left:0;
+  text-align:center;
 }
 
 @media only screen and (min-width:80em){
@@ -101,6 +98,7 @@ body{
   }
 }
 
+/*-------NAV-------------*/
 
 .masthead{
   background-color:#BB5235;
@@ -128,29 +126,55 @@ body{
   margin:0 0.4em;
 }
 
-@media only screen and (min-width: 50em){
+@media only screen and (min-width: 25em){
 
-  .nav{
-    margin-top: 0rem;
-    text-align:right;
+  .nav li{
+    display:inline-block;
+    padding-left:0;
   }
 }
 
-.about{
-  background-color:#239F94;
+@media only screen and (min-width: 60em){
+
+  .main-body{
+    padding-top:3.9rem;
+  }
 }
 
-.tour{
- background-color: #256766;
+
+
+/*-------ABOUT-------------*/
+
+.about{
+  background-color:#239F94;
 }
 
 .about_title{
   text-align:center;
 }
 
+/*-------TOUR-------------*/
+
+.tour{
+ background-color: #256766;
+}
+
 .tour_title{
   text-align:center;
 }
+
+@media only screen and (mid-width: 38em){
+
+  .tour_title{
+    text-align:center;
+  }
+
+  .tour{
+    padding-left:1.3rem;
+    padding-right:1.3rem;
+  }
+
+/*-------PRICING-------------*/
 
 .pricing_title{
   text-align:center;
@@ -159,6 +183,51 @@ body{
 .pricing{
   background-color:#239F94;
 }
+
+@media only screen and (mid-width: 38em){
+
+  .pricing_title{
+    text-align:left;
+  }
+
+  .pricing{
+    padding-left:1.3rem;
+    padding-right:1.3rem;
+  }
+}
+
+/*-------SIGN UP-------------*/
+
+.sign-up-p{
+  border-style:solid;
+  border-color:#622518;
+  background-color:#AA3C24;
+  width:50%;
+  text-align:center;
+  margin:1.3rem auto;
+}
+
+.btn-signup{
+  border-style:solid;
+  border-color:#622518;
+  background-color:#AA3C24;
+  width:40%;
+  text-align:center;
+  text-decoration:none;
+  text-align:center;
+  margin:0 40%;
+}
+
+@media only screen and (mid-width: 60em){
+.sign-up-p{
+  width:20%;
+  text-align:left;
+  display:inline-block;
+  padding-left:0;
+}
+  }
+
+/*-------FOOTER-------------*/
 
 .footer{
  background-color: #BB5235;
@@ -173,23 +242,4 @@ body{
   .footer_copyright{
      text-align:left;
   }
-}
-
-.grid{
-  margin:0 auto;
-  max-width: 70em;
-}
-
-.btn{
-  background-color:#AA3C24;
-  border-radius:40px;
-  color:white;
-  width:40%;
-  text-decoration:none;
-  text-align:center;
-  margin:0 30%;
-}
-
-.btn a:hover{
-  color:#622518;
 }
