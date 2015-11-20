@@ -105,5 +105,15 @@ body{
 }
 
 .btn{
-  color:#AA3C24
+  background-color:#AA3C24;
+  border-radius:40px;
+  color:white;
+  width:40%;
+  text-decoration:none;
+  text-align:center;
+  margin:0 30%;
+}
+
+.btn a:hover{
+  color:#622518;
 }

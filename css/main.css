@@ -15,6 +15,10 @@ h2{
   color:#D7B9A4;
 }
 
+.pad-bottom{
+  color:#D7B9A4;
+}
+
 header,body{
 font-family: 'Raleway', sans-serif;
 }
@@ -29,4 +33,29 @@ a{
 
 a:hover{
 color: white;
+}
+
+.sign-up-p{
+  border-style:solid;
+  border-color:#622518;
+  background-color:#AA3C24;
+  width:50%;
+  text-align:center;
+  margin:1.3rem auto;
+}
+
+.btn-signup{
+  border-style:solid;
+  border-color:#622518;
+  background-color:#AA3C24;
+  width:50%;
+  text-align:center;
+  margin:1.3rem auto;
+  border-radius:40px;
+  color:white;
+  width:40%;
+  text-decoration:none;
+  text-align:center;
+  margin:0 30%;
+
 }
