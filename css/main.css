@@ -124,6 +124,8 @@ ul{
 .nav a{
   display:inline-block;
   margin:0 0.4em;
+  text-decoration:none;
+  border-bottom:
 }
 
 @media only screen and (min-width: 25em){
@@ -208,24 +210,15 @@ ul{
 }
 
 .btn-signup{
-  border-style:solid;
-  border-color:#622518;
   background-color:#AA3C24;
+  border-radius:40px;
+  color:white;
   width:40%;
-  text-align:center;
   text-decoration:none;
   text-align:center;
-  margin:0 40%;
+  margin:0 30%;
 }
 
-@media only screen and (mid-width: 60em){
-.sign-up-p{
-  width:20%;
-  text-align:left;
-  display:inline-block;
-  padding-left:0;
-}
-  }
 
 /*-------FOOTER-------------*/
 
@@ -235,6 +228,11 @@ ul{
 
 .footer_copyright{
    text-align:center;
+    background-color: #BB5235;
+}
+
+.footer-title{
+  color:#239F94;
 }
 
 @media only screen and (min-width: 50em){
