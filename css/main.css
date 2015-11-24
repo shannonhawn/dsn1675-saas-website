@@ -1,10 +1,11 @@
-/*----Colour Scheme---*/
+/*---Colour Scheme---/
 Dark Orange - 622518
 Light Orange - AA3C24
 Dark Teal - 239F94
 Light Teal - 3EADAD
 Beige - D7B9A4
 /*--------------------*/
+
 
 @-moz-viewport { width: device-width; scale: 1;}
 @-ms-viewport { width: device-width; scale: 1;}
@@ -32,9 +33,15 @@ header,body{
 font-family: 'Raleway', sans-serif;
 }
 
+h1{
+  font-family:'Montserrat', sans-serif;
+  color: #3EADAD;
+  text-shadow: -1px 1px 4px rgba(0,0,0,0.8)
+}
+
 h2{
   font-family:'Montserrat', sans-serif;
-  color:#D7B9A4;
+  color:#622518;
 }
 
 a{
@@ -50,7 +57,7 @@ color: white;
 }
 
 .btn{
-  background-color:#AA3C24;
+  background-color:#239F94;
   border-radius:40px;
   color:white;
   width:40%;
@@ -63,6 +70,10 @@ color: white;
   color:#622518;
 }
 
+p{
+  text-align:center;
+}
+
 .hero-banner{
   position:relative;
 }
@@ -73,7 +84,7 @@ color: white;
   text-align:center;
   color:#622518;
   width:100%;
-  bottom:30px;
+  top:300px;
 }
 
 .pad-bottom{
@@ -102,6 +113,7 @@ ul{
 
 .masthead{
   background-color:#BB5235;
+  padding:0;
 }
 
 .logo{
@@ -158,7 +170,7 @@ ul{
 /*-------TOUR-------------*/
 
 .tour{
- background-color: #256766;
+ background-color:#256766;
 }
 
 .tour_title{
@@ -178,39 +190,31 @@ ul{
 
 /*-------PRICING-------------*/
 
-.pricing_title{
-  text-align:center;
-}
-
 .pricing{
   background-color:#239F94;
 }
 
-@media only screen and (mid-width: 38em){
-
-  .pricing_title{
-    text-align:left;
-  }
-
-  .pricing{
-    padding-left:1.3rem;
-    padding-right:1.3rem;
-  }
+.pricing_title{
+  text-align:center;
 }
 
 /*-------SIGN UP-------------*/
 
+.sign-up{
+  background-color: #AA3C24;
+}
+
 .sign-up-p{
-  border-style:solid;
-  border-color:#622518;
-  background-color:#AA3C24;
-  width:50%;
-  text-align:center;
-  margin:1.3rem auto;
+  border-style: solid;
+  border-color: #622518;
+  background-color: #AA3C24;
+  width: 50%;
+  text-align: center;
+  margin: 1.3rem auto;
 }
 
 .btn-signup{
-  background-color:#AA3C24;
+  background-color:#239F94;
   border-radius:40px;
   color:white;
   width:40%;
@@ -222,22 +226,6 @@ ul{
 
 /*-------FOOTER-------------*/
 
-.footer{
- background-color: #BB5235;
-}
-
-.footer_copyright{
-   text-align:center;
-    background-color: #BB5235;
-}
-
-.footer-title{
-  color:#239F94;
-}
-
-@media only screen and (min-width: 50em){
-
-  .footer_copyright{
-     text-align:left;
-  }
+.footer {
+  background-color: #239F94;
 }
