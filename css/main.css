@@ -249,3 +249,8 @@ ul{
 .footer {
   background-color: #239F94;
 }
+
+.icons{
+  max-width:10em;
+  margin:0 auto;
+}
