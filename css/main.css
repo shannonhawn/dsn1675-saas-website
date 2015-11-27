@@ -87,6 +87,26 @@ p{
   top:300px;
 }
 
+.hero-p{
+  position:absolute;
+  display:block;
+  text-align:center;
+  color:white;
+  width:100%;
+  top:100px;
+}
+
+.btn-hero{
+  background-color:#AA3C24;
+  border-radius:30px;
+  color:white;
+  width:40%;
+  text-decoration:none;
+  text-align:center;
+  margin:0 30%;
+  top:500px;
+}
+
 .pad-bottom{
   background-color:#D7B9A4;
 }
@@ -170,7 +190,7 @@ ul{
 /*-------TOUR-------------*/
 
 .tour{
- background-color:#256766;
+ background-color:white;
 }
 
 .tour_title{
@@ -191,7 +211,8 @@ ul{
 /*-------PRICING-------------*/
 
 .pricing{
-  background-color:#239F94;
+  /*background-color:#239F94;*/
+  background: red;
 }
 
 .pricing_title{
@@ -200,8 +221,8 @@ ul{
 
 /*-------SIGN UP-------------*/
 
-.sign-up{
-  background-color: #AA3C24;
+.signup{
+  background-color: white;
 }
 
 .sign-up-p{
@@ -222,7 +243,6 @@ ul{
   text-align:center;
   margin:0 30%;
 }
-
 
 /*-------FOOTER-------------*/
 
