@@ -37,13 +37,92 @@
 
 <main id="main" class="pad-bottom" role="main">
 
-<div class="island sign-up">
-  <p class="sign-up-p island-1-4"> Name </p>
-  <p class="sign-up-p island-1-4"> Username </p>
-  <p class="sign-up-p island-1-4"> E-mail </p>
-  <p class="sign-up-p island-1-4"> Create Password </p>
-  <p class="sign-up-p island-1-4"> Sign Up </p>
-</div>
+<form action="https://formspree.io/hawn0006@algonquinlive.com" method="post"><!--where info is being sent to (find on formspree but change to https)-->
+
+  <div>
+    <label for="name">First Name</label>
+    <input id="name" name="name">  <!--No need for type--><!--Everything with id should have a name, check naming convention on formspree-->
+  </div>
+
+  <div>
+    <label for="name">Last Name</label>
+    <input id="name" name="name">
+  </div>
+
+  <div>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" required placeholder="you@yours.com"> <!--Place for example email address (not a replacement for label (always have a visible label!) - placeholder is optional)-->
+  </div>
+
+  <div>
+    <label for="password">Password</label>
+    <input id="password" type="password" name="password"> <!--Place for example email address (not a replacement for label (always have a visible label!) - placeholder is optional)-->
+  </div>
+
+<fieldset><!--label the whole group: legend-->
+<legend>Card Type</legend>
+
+  <input id="visa" type="radio" name="feels" value="VISA"> <!--Type=checkbox for checkbox, value will show in e-mail, instead of "on"-->
+  <label="visa">VISA</label>
+
+  <input id="mastercard" type="radio" name="feels" value="MASTERCARD">
+  <label="mastercard">MASTERCARD</label>
+
+  <input id="amex" type="radio" name="feels" value="AMEX">
+  <label="amex">AMEX</label>
+
+  <div>
+    <label for="credit">Credit Card #</label>
+    <input id="credit" name="credit">  <!--No need for type--><!--Everything with id should have a name, check naming convention on formspree-->
+  </div>
+
+  <div>
+    <label for="security">Security Code</label>
+    <input id="security" name="security">  <!--No need for type--><!--Everything with id should have a name, check naming convention on formspree-->
+  </div>
+
+  <div>
+    <label for="date">Expiration Date</label>
+      <select id="date" name="date">
+        <option>Month</option>
+        <option>01</option>
+        <option>02</option>
+        <option>03</option>
+        <option>04</option>
+        <option>05</option>
+        <option>06</option>
+        <option>07</option>
+        <option>08</option>
+        <option>09</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+      </select>
+
+      <div>
+        <label for="date">Year</label>
+          <select id="date" name="date">
+        <option>Year</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+    </select>
+  </div>
+
+</fieldset>
+
+<div>
+<button type="submit">Submit</button><!--Button should only be used inside of a form, submits form's info-->
+</div> <!--formspree.com - info gets sent there - it's free-->
+
+<input type="hidden" name="_next" value="https://shannonhawn.github.io/forms/thanks.html"><!--Thank you message-->
+
+</form>
 
 </main>
 
