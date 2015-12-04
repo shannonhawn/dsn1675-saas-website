@@ -254,3 +254,24 @@ ul{
   max-width:10em;
   margin:0 auto;
 }
+
+
+/*-------FORM-------------*/
+label{
+  display:block;
+}
+
+input+label{
+  display:block;
+  cursor:pointer;
+}
+
+input{
+  border: 3px solid hotpink;
+  background-color:pink;
+}
+
+button{
+  border:3px solid limegreen;
+  cursor:pointer;
+}
