@@ -96,7 +96,6 @@ nav li{
   text-align:center;
 }
 
-
 a{
   color: #D7B9A4;
   text-align: center;
@@ -242,7 +241,7 @@ footer li{
   width:100%;
 }
 
-.social-media{
+.icons{
   float:left;
   width:25%;
   max-width: 5rem;
