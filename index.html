@@ -3,19 +3,18 @@
 <head>
   <meta charset="utf-8">
   <title>Plan-it</title>
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
  <meta name="handheldfriendly" content="true">
  <meta name="mobileoptimized" content="240">
  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+ <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -24,20 +23,18 @@
   <li><a href="#nav">Jump to navigation</a></li>
 </ul>
 
-
-
 <header id="nav" class="grid nav pad-top" role="banner">
-    <div class="unit s-1-4 m-1-3 l-1-4">
-      <div class="logo island push embed embed-2.5by1">
-    <a href="index.html"><img class="img-flex" src="images/LOGOcolour.svg" alt="PLAN-it logo"></a>
+    <div class="unit xs-1 s-1-3 m-1- l-1">
+      <div class="logo push embed embed-2.5by1">
+    <a href="index.html"><img class="embed_item" src="images/LOGOcolour.svg" alt="PLAN-it logo"></a>
     </div>
   </div>
 
-    <nav class="unit xs-1 s-3-4 m-2-3 l-3-4">
+    <nav class="unit xs-1 s-3-4 m-2-3 l-3-4" role="navigation">
       <ol class="mega pad-top-half push-0">
         <li class="push-1-2"><a class="island-1-2" href="tour.html">Tour</a></li>
         <li class="push-1-2"><a class="island-1-2" href="price.html">Pricing</a></li>
-        <li class="push"><a class="island-1-2" href="signup.html">Sign Up</a></li>
+        <li class="push-1-4"><a class="island-1-4" href="signup.html">Sign Up</a></li>
       </ol>
     </nav>
 </header>
@@ -46,17 +43,21 @@
 <!--Hero-->
 <main id="main" class="pad-bottom" role="main">
 <div class="grid">
-  <div class="unit xs-1 s-1 m-1-1 l-1-2">
+  <div class="unit xs-1 s-1 m-1 l-1">
     <div class="hero-banner">
   <img class="hero-image img-flex" src="images/desk.jpg" alt="Wooden desk with computer">
       </div>
     <div class="hero-text">
-  <h1 class="yotta push-0">Your On-the-Go, Completely Connected, Life Organizer.</h1><br>
-  <p class="hero-p">An online organizational tool for busy people</p><br>
+  <h1 class="yotta push-0">Your On-the-Go, Completely Connected, Life Organizer.</h1>
+</div>
+</div>
+</div>
+
+<div class="unit xs-1 s-1 m-1-1 l-1-2 main-body pad-bottom-1-2 pad-top">
+  <h3 class="text-center tera gutter push-1-4">An online organizational tool for busy people</h3><br>
   <a class="btn-hero" href="signup.html"> Sign Up Now! </a>
 </div>
-</div>
-</div>
+
 
 <!--About-->
 
@@ -106,48 +107,41 @@
   </div>
 </div>
 
-<!--Pricing-->
 
-  <div class="unit xs-1 s-1 m-1-3 l-1-3 gutter">
-    <div class="pricing-image">
-  <h2 class="pricing-image-text island-1-3">Pricing</h2>
-  <div class="embed embed--4by3">
-    <img class="embed__item" src="images/businesswoman.jpg" alt="Two women working at a computer in an office setting">
- </div>
- </div>
- <p class="pad-top-half">
+<h3 class="title-banner exa island-1-2 text-center push-0">Sign up today to organize your life!</h3>
 
+<div class="grid-stretch grid">
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 island unit-content-distribute">
+    <div class="content-fill">
+      <h2 class="push-1-4">Free</h2>
+      <p class="push-1-2">•Social media integration with event import/export.</p>
+      <p class="push-1-2">•Calendar-to-calendar connection with desktop computer</p>
+    </div>
+  <a class="btn" href="price.html">Sign Up</a>
+  </div>
 
-
-<div class="unit xs-1 s-1 m-1 l-1">
-  <h3 class="free">Free</h3>
-   <p class="pad-top-half">•Social media integration with event import/export <br>
-    •Calendar-to-calendar connection with desktop computer</p>
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 island unit-content-distribute ">
+    <div class="content-fill">
+      <h2 class="push-0">Plus</h2>
+      <p class="push-1-2">•Multiple calendars</p>
+      <p class="push-1-2">•Calendar to calendar connection</p>
+      <p class="push-1-2">•Basic event creation and management tools</p>
+      <p class="push-1-2">•Social media integration with event import/export</p>
+    </div>
     <a class="btn" href="price.html">Sign Up</a>
+  </div>
+
+  <div class="unit xs-1 s-1 m-1-3 l-1-3 island unit-content-distribute">
+    <div class="content-fill">
+      <h2 class="push-0">Premium</h2>
+      <p class="push-1-2">•Extended event creation</p>
+      <p class="push-1-2">•Calendar to calendar connection</p>
+      <p class="push-1-2">•Social media integration with event import/export</p>
+      <p class="push">•Unlimited calendars</p>
+    </div>
+    <a class="btn" href="price.html">Sign Up</a>
+  </div>
 </div>
-
-<div class="unit xs-1 s-1 m-1 l-3">
-  <h3 class="plus">Plus</h3>
-   <p class="pad-top-half">•Multiple calendars<br>
-    •Calendar to calendar connection<br>
-    •Basic event creation and management tools<br>
-    •Social media integration with event import/export</p>
-        <a class="btn" href="price.html">Sign Up</a>
-</div>
-
-<div class="unit xs-1 s-1 m-2 l-3">
-  <h3 class="premium">Premium - $17/mth</h3>
- <p class="pad-top-half">•Unlimited calendars<br>
-    •Extended event creation<br>
-    •Calendar to calendar connection<br>
-    •Social media integration with event import/export</p>
-        <a class="btn" href="price.html">Sign Up</a>
-
-</div>
-</div>
-
-
-
 
 <!--Sign Up-->
 
@@ -156,7 +150,7 @@
     <div class="signup-image">
   <h2 class="signup-image-text island-1-2">Sign Up</h2>
   <div class="embed embed--4by3">
-    <img class="embed__item" src="images/planner.jpg" alt="Day Planner">
+    <img class="embed__item" src="images/2women.jpg" alt="2 women at a computer">
  </div>
  </div>
  </div>

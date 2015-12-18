@@ -134,7 +134,7 @@ ul{
 }
 
 .logo{
-  max-width:370px;
+  max-width:170px;
 }
 
 nav ol{
@@ -183,16 +183,9 @@ nav li{
 
 /*-------PRICING-------------*/
 
-.pricing{
-background-color:white;
-}
 
 .pricing_title{
   text-align:center;
-}
-
-.plus{
-  background-color:white;
 }
 
 /*-------SIGN UP-------------*/
@@ -243,7 +236,7 @@ footer ol{
 }
 
 footer li{
-  display: inline-block;
+  display:inline-block;
   width:100%;
 }
 
