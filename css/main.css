@@ -31,7 +31,7 @@ h3{
 /*-----------------------NAV---------------------*/
 
 header{
-background-color: #3EADAD;
+background-color: #239F94;
 }
 
 .logo{
@@ -109,6 +109,10 @@ a:hover{
 color:#D7B9A4;
 }
 
+p{
+  text-align:center;
+}
+
 .hero-p{
   position:absolute;
   display:block;
@@ -132,7 +136,6 @@ color:#D7B9A4;
 .pad-bottom{
   background-color:#D7B9A4;
 }
-
 
 
 
@@ -210,14 +213,12 @@ footer li{
 .sign-up-p{
   border-style: solid;
   border-color: #622518;
-  background-color: #AA3C24;
   width: 50%;
   text-align: center;
   margin: 1.3rem auto;
 }
 
 .btn-signup{
-  background-color:#239F94;
   border-radius:40px;
   color:white;
   width:40%;
@@ -229,19 +230,7 @@ footer li{
 /*-------FOOTER-------------*/
 
 .footer{
-  background-color: #239F94;
-}
-
-.icons{
-  max-width:.5em;
-  margin:0 auto;
-  padding:0;
-}
-
-
-/*-------FORM-------------*/
-footer{
-  background-color: #AA3C24;
+  background-color: #3EADAD;
 }
 
 footer ol{
