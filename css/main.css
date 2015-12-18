@@ -31,7 +31,6 @@ h1{
 
 h2{
   font-family: 'Abril Fatface', cursive;
-  color:#3EADAD;
   text-align:center;
 }
 
@@ -39,7 +38,6 @@ h3{
   font-family:'Montserrat', sans-serif;
   color:#AA3C24;
   text-align:center;
-  background-color:#D7B9A4;
 }
 
 a{
@@ -132,12 +130,11 @@ ul{
 /*-------NAV-------------*/
 
 .masthead{
-  background-color:#3EADAD;
   padding:0;
 }
 
 .logo{
-  max-width:170px;
+  max-width:370px;
 }
 
 nav ol{
@@ -159,7 +156,6 @@ nav a{
 
 @media only screen and (min-width: 25em){
 
-
 nav li{
  display: inline-block;
  padding-left: 0;
@@ -168,7 +164,7 @@ nav li{
 /*-------ABOUT-------------*/
 
 .about{
-  background-color:#D7B9A4;
+  background-color:white;
 }
 
 .about_title{
@@ -188,7 +184,7 @@ nav li{
 /*-------PRICING-------------*/
 
 .pricing{
-background-color:#239F94;
+background-color:white;
 }
 
 .pricing_title{
@@ -196,7 +192,7 @@ background-color:#239F94;
 }
 
 .plus{
-  background-color:#239F94;
+  background-color:white;
 }
 
 /*-------SIGN UP-------------*/
