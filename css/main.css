@@ -20,6 +20,18 @@ Beige - D7B9A4
 
 }
 
+@font-face {
+    font-family: 'abrilfatface';
+    src: url('../fonts/abrilfatface-regular-webfont.eot');
+    src: url('../fonts/abrilfatface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abrilfatface-regular-webfont.woff') format('woff'),
+         url('../fonts/abrilfatface-regular-webfont.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 html{
@@ -34,7 +46,7 @@ h1{
 }
 
 h2{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'abrilfatface', cursive;
   text-align:center;
 }
 
